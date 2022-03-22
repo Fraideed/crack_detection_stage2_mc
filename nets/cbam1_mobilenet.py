@@ -72,3 +72,5 @@ def test():
     x = torch.randn(32, 1, 300,400).to(device)
     y = net(x)
     print(y.size())
+
+    ##
